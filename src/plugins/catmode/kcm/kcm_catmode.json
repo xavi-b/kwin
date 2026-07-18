@@ -1,0 +1,11 @@
+{
+    "Categories": "Qt;KDE;",
+    "KPlugin": {
+        "Description": "Automatically block the keyboard when a cat walks on it",
+        "Icon": "input-keyboard",
+        "Name": "Cat Mode"
+    },
+    "X-KDE-Keywords": "cat,keyboard,pet,lock,input,paw",
+    "X-KDE-System-Settings-Parent-Category": "input-devices",
+    "X-KDE-Weight": 80
+}

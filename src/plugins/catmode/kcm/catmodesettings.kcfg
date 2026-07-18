@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    SPDX-FileCopyrightText: 2026 Xavier Besson <developer@xavi-b.fr>
+    SPDX-License-Identifier: BSD-3-Clause
+-->
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd" >
+    <kcfgfile name="kwinrc"/>
+    <group name="CatMode">
+        <entry name="Enabled" type="Bool">
+            <default>true</default>
+            <label>Enable cat mode auto-detection</label>
+        </entry>
+        <entry name="LockDurationMs" type="Int">
+            <default>30000</default>
+            <label>How long to block input after detection (milliseconds; 0 = until unlock chord)</label>
+            <min>0</min>
+            <max>600000</max>
+        </entry>
+        <entry name="CooldownMs" type="Int">
+            <default>5000</default>
+            <label>Cooldown after unlock before detecting again (milliseconds)</label>
+            <min>0</min>
+            <max>120000</max>
+        </entry>
+        <entry name="Sensitivity" type="String">
+            <default>medium</default>
+            <label>Detection sensitivity</label>
+        </entry>
+    </group>
+</kcfg>

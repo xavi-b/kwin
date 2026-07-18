@@ -1,0 +1,19 @@
+# SPDX-FileCopyrightText: 2026 Xavier Besson <developer@xavi-b.fr>
+# SPDX-License-Identifier: BSD-3-Clause
+
+[Global]
+IconName=input-keyboard
+Comment=Cat Mode
+Name=Cat Mode
+
+[Event/catmodelocked]
+Name=Cat Mode Locked
+Comment=Keyboard input was blocked after cat-like activity was detected
+Action=Popup
+DefaultAction=Popup
+
+[Event/catmodeunlocked]
+Name=Cat Mode Unlocked
+Comment=Keyboard input was restored after leaving cat mode
+Action=Popup
+DefaultAction=Popup

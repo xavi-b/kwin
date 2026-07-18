@@ -1,0 +1,10 @@
+# SPDX-FileCopyrightText: 2026 Xavier Besson <developer@xavi-b.fr>
+# SPDX-License-Identifier: BSD-3-Clause
+File=catmodesettings.kcfg
+ClassName=CatModeSettings
+Mutators=true
+DefaultValueGetters=true
+GenerateProperties=true
+ParentInConstructor=true
+Notifiers=true
+ItemAccessors=true
